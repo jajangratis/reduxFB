@@ -43,10 +43,12 @@ $ cd Yourprojectname
 $ npm install
 $ npm start
 ```
-## Preview
-<img src='https://i.imgur.com/VtaxC0j.png' width='300' height='500'>
-<img src='https://i.imgur.com/mppFIXG.png' width='300' height='500'>
-<img src='https://i.imgur.com/a63fvHW.png' width='300' height='500'>
+
+
+|               |               |              |
+| ------------- | ------------- |------------- |
+| ![pic1](https://i.imgur.com/VtaxC0j.png)  | ![pic2](https://i.imgur.com/mppFIXG.png) | ![pic3](https://i.imgur.com/a63fvHW.png)|
+
 
 ## Preview Gif
 
