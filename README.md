@@ -49,11 +49,8 @@ python3 manage.py runserver
 ```
 
 ## Screenshoots and stuff
-(https://github.com/jajangratis/jajangratis/reduxFB/blob/master/screenshots/Screenshot_20180607-082438.png)
-(https://github.com/jajangratis/jajangratis/reduxFB/blob/master/screenshots/Screenshot_20180607-082438.png)
-(https://github.com/jajangratis/jajangratis/reduxFB/blob/master/screenshots/Screenshot_20180607-082444.png)
-(https://github.com/jajangratis//jajangratis/reduxFB/blob/master/screenshots/Screenshot_20180607-082444.png)
-
+(https://github.com/jajangratis/reduxFB/blob/master/screenshots/Screenshot_20180607-082438.png)
+(https://github.com/jajangratis/reduxFB/blob/master/screenshots/Screenshot_20180607-082444.png)
 untuk melihat versi video silahkan akses folder screenshoots dan arahkan ke vid.mp4
 
 ## Preview Gif
