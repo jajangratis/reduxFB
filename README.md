@@ -1,43 +1,46 @@
-# React Native DumbWays Boilerplate
+# React Native Facebook Clone
 
-This is a complete React Native Boilerplate including React Navigator, Redux, and Nativebase. This Boilerplate helps u quickly jump to code as soon as possible without being confuse about structures, and setup. We make it as modular as possible to avoid headache on a big app with a big team.
+project ini berisi tentang clone facebook yang dibuat dengan react native dan mengkombinasikannya dengan redux serta menghubungkannya dengan database django 
 
-## Prerequisites
-
-- Xcode or Android Studio installed and exported on your ~/.bash_profile or similar
-- JDK 1.8
-- Node >= 8.*
-- Watchman
-- react-native-cli
+## Feature and Technology this project used
+React Native <br>
+Redux  <br>
+Native Base <br>
+Redux Form <br>
+Django
 
 ## Installation
 
-open terminal and change directory to your desired folder, then:
+install applikasi dengan menjalankan perintah berikut
 ```
-$ git clone https://github.com/DumbwaysDotId/RnDwBoilerplate YourAppName
+$ git clone https://github.com/jajangratis/reduxFB.git YourAppName
 $ cd YourAppName
+$ npm install
+```
+
+Untuk installasi preset DB dengan django
+```
+$ git clone https://github.com/jajangratis/fbDBdjango YourDb
+$ cd YourDb
 $ npm install
 ```
 
 ## Running Your App
 
-Make sure to open your emulator first, then
+Untuk menjalankan aplikasi yang telah terinstall
 ```
 $ react-native run-android
 or
 $ react-native run-ios
 ```
 
-## Example & Folder Structures
-
-- In the 'app' folder, look at 'contacts' module, there you can look how redux, react-navigation, and native-base works together
-
-- ContactsList is the first screen that is rendered on screen. To change that, open 'app/redux/nav.js', and change the 4th line
+untuk menjalankan DB 
 
 ```
-RootNavigator.router.getActionForPathAndParams('ContactsList') //change ContactsList to your desired screen
+python3 manage.py runserver
 ```
 
-- Register your screen on 'app/navigators/RootNavigator.js'
+## Screenshoots and stuff
 
-- Add your reducers at 'app/redux/rootReducer'
+![alt text](https://github.com/jajangratis/fbDBdjango/tree/master/screenshots/Screenshot_20180607-082438.png)
+
