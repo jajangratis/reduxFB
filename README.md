@@ -1,64 +1,55 @@
-# React Native Facebook Clone
+# Facebook Clone
 
-project ini berisi tentang clone facebook yang dibuat dengan react native dan mengkombinasikannya dengan redux serta menghubungkannya dengan database django 
+Facebook Clone is a clone app of https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en. It use React Native as the frontend and Django as the Backend and for data storage and i used redux . I am working this app at https://dumbways.id and https://arkademy.com Bootcamp class. Feels free to contribute to make this app better.
 
-## Feature and Technology this project used
 
-React Native <br>
-Redux  <br>
-Native Base <br>
-Redux Form <br>
-Django
+## Feature
 
-Fitur App : <br>
-Melihat semua status
-terdapat kolom komentar
-memberi like
-membuat status
-menghapus status
-mengedit status
-## Installation
+1. Status List
+2. Status Detail
+3. Edit Your Own Post
+4. Delete Your Own Post
+5. Like Button
 
-install applikasi dengan menjalankan perintah berikut
-```
-$ git clone https://github.com/jajangratis/reduxFB.git YourAppName
-$ cd YourAppName
+## Technology
+
+1. React Native as Frontend
+2. Django as Backend
+3. Redux Form as Process data input
+4. Redux as state management and request handler
+
+## Installation 
+
+Open terminal, and clone this project
+
+$ git clone https://github.com/jajangratis/reduxFB Yourprojectname
+
+API:
+
+make sure you already on your virtual env
+
+$ git clone https://github.com/jajangratis/fbDBdjango
+$ cd fbDBdjango
+$ pip3 install
+
+Mobile Frontend (React Native):
+
+Make sure you already installed React Native and have emulator or real device running. If not visit this page https://facebook.github.io/react-native/docs/getting-started.html
+
+$ cd Yourprojectname
 $ npm install
-```
+$ npm start
 
-Untuk installasi preset DB dengan django
-```
-$ git clone https://github.com/jajangratis/fbDBdjango YourDb
-$ cd YourDb
-$ npm install
-```
+![Screenshots1](https://i.imgur.com/iH6GfXF.gif)
+![screenshots2](https://i.imgur.com/C4NNNk1.gif)
 
-## Running Your App
+## Preview Video
+[![Facebook Clone](https://www.youtube.com/yt/about/media/images/brand-resources/icons/YouTube-icon-our_icon.png)](https://youtu.be/ASSK774NV0o)
 
-Untuk menjalankan aplikasi yang telah terinstall
-```
-$ react-native run-android
-or
-$ react-native run-ios
-```
+## Powered by
 
-untuk menjalankan DB 
+![https://dumbways.id](https://avatars2.githubusercontent.com/u/34464790?s=200&v=4)
 
-```
-python3 manage.py runserver
-```
+![https://arkademy.com](http://www.arkademy.com/asset/images/ico_logo.png)
 
-## Screenshoots and stuff
-(https://github.com/jajangratis/reduxFB/blob/master/screenshots/Screenshot_20180607-082438.png)
-(https://github.com/jajangratis/reduxFB/blob/master/screenshots/Screenshot_20180607-082444.png)
-untuk melihat versi video silahkan akses folder screenshoots dan arahkan ke vid.mp4
-
-## Preview Gif
-(https://github.com/jajangratis/reduxFB/blob/master/screenshots/ezgif.com-video-to-gif.gif)
-
-## Powered By And Supported By
-(https://github.com/jajangratis/reduxFB/blob/master/screenshots/WhatsApp%20Image%202018-06-07%20at%207.23.44%20AM.jpeg)
-(https://github.com/jajangratis/reduxFB/blob/master/screenshots/WhatsApp%20Image%202018-06-07%20at%207.23.45%20AM.jpeg)
-
-
-
+Author: Trian Afiansyah
