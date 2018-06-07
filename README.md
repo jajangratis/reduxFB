@@ -5,40 +5,50 @@ Facebook Clone is a clone app of https://play.google.com/store/apps/details?id=c
 
 ## Feature
 
-1. Status List
-2. Status Detail
-3. Edit Your Own Post
-4. Delete Your Own Post
-5. Like Button
+1. Post Status
+2. Status List
+3. Status Detail
+4. Edit Your Own Post
+5. Delete Your Own Post
+6. Like Button
 
 ## Technology
 
 1. React Native as Frontend
 2. Django as Backend
 3. Redux Form as Process data input
-4. Redux as state management and request handler
+4. Redux as State management
+5. Axios as Request handler
+6. Django REST framework as REST API
 
 ## Installation 
 
 Open terminal, and clone this project
-
+```
 $ git clone https://github.com/jajangratis/reduxFB Yourprojectname
-
+```
 API:
 
 make sure you already on your virtual env
-
+```
 $ git clone https://github.com/jajangratis/fbDBdjango
 $ cd fbDBdjango
 $ pip3 install
-
+```
 Mobile Frontend (React Native):
 
 Make sure you already installed React Native and have emulator or real device running. If not visit this page https://facebook.github.io/react-native/docs/getting-started.html
-
+```
 $ cd Yourprojectname
 $ npm install
 $ npm start
+```
+## Preview
+![Pic1](https://i.imgur.com/VtaxC0j.png|width=100)
+![Pic2](https://i.imgur.com/mppFIXG.png =150x100)
+![Pic3](https://i.imgur.com/a63fvHW.png =150x100)
+
+## Preview Gif
 
 ![Screenshots1](https://i.imgur.com/iH6GfXF.gif)
 ![screenshots2](https://i.imgur.com/C4NNNk1.gif)
