@@ -44,8 +44,8 @@ $ npm install
 $ npm start
 ```
 ## Preview
-![Pic1](https://i.imgur.com/VtaxC0j.png|width=100)
-![Pic2](https://i.imgur.com/mppFIXG.png =150x100)
+![Pic1](https://i.imgur.com/VtaxC0j.png |width=100)
+![Pic2](https://i.imgur.com/mppFIXG.png=150x100)
 ![Pic3](https://i.imgur.com/a63fvHW.png =150x100)
 
 ## Preview Gif
