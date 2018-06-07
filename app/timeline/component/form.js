@@ -19,7 +19,7 @@ class Form extends Component {
     return (
       <Grid>
         <Col size={1}>
-          <Thumbnail source={require('../../../assets/orca_phone_unknown_contact.png')} style={{width:50,height:50}}/>
+          <Thumbnail source={{uri: 'https://picsum.photos/300/300/?image=140'}} style={{width:50,height:50}}/>
         </Col>
         <Col size={4}>
           <FormNB>

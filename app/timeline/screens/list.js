@@ -76,7 +76,7 @@ class fbTimelineList extends Component{
                             <Grid >
                                 <Row>
                                     <Col size={1}>
-                                        <Thumbnail source={res.pic == null ? (require('../../../assets/orca_phone_unknown_contact.png')):(res.pic)} style={{width:50,height:50}}/>
+                                        <Thumbnail source={res.pic == null ? ({uri: 'https://picsum.photos/300/300/?image=140'}):({uri:res.pic})} style={{width:50,height:50}}/>
                                     </Col>
                                     <Col size={3} >
                                         <Row><Text style>{res.name}</Text></Row>

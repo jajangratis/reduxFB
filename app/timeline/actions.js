@@ -9,14 +9,14 @@ import axios from 'axios'
 export function allTimeline(){
     return {
         type: 'FETCH_ALL_TIMELINE',
-        payload : axios.get('http://192.168.43.84:8000/api/timeline/')
+        payload : axios.get('http://192.168.0.7:8000/api/timeline/')
     }
 }
 
 export function getTimeline(id){
     return {
         type: 'GET_TIMELINE',
-        payload : axios.get('http://192.168.43.84:8000/api/timeline/'+id+'/')
+        payload : axios.get('http://192.168.0.7:8000/api/timeline/'+id+'/')
     }
 } 
 
@@ -25,7 +25,7 @@ export function addToTimeline(values){
         type: "ADD_TIMELINE",
         payload : axios({
             method:'post',
-            url:'http://192.168.43.84:8000/api/timeline/',
+            url:'http://192.168.0.7:8000/api/timeline/',
             data:{
                 name:"Trian Afiansyah",
                 status:values,
@@ -40,7 +40,7 @@ export function likepostbyId(id,likes){
         type: "ADD_LIKE",
         payload : axios({
             method:'patch',
-            url:'http://192.168.43.84:8000/api/timeline/'+id+'/',
+            url:'http://192.168.0.7:8000/api/timeline/'+id+'/',
             data:{
                 like:likes+1,
             }
@@ -52,7 +52,7 @@ export function likepostbyId(id,likes){
 export function deleteTimeline(values){
     return {
         type: "DELETE_TIMELINE",
-        payload : axios.delete('http://192.168.43.84:8000/api/timeline/'+values+'/')
+        payload : axios.delete('http://192.168.0.7:8000/api/timeline/'+values+'/')
     }
 }
 
@@ -61,7 +61,7 @@ export function editToTimeline(id,status){
         type: "EDIT_TIMELINE",
         payload : axios({
             method:'patch',
-            url:'http://192.168.43.84:8000/api/timeline/'+id+'/',
+            url:'http://192.168.0.7:8000/api/timeline/'+id+'/',
             data:{
                 status:status,
             }
