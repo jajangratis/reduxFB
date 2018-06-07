@@ -61,7 +61,7 @@ untuk melihat versi video silahkan akses folder screenshoots dan arahkan ke vid.
 
 ## Powered By And Supported By
 (https://github.com/jajangratis/jajangratis/reduxFB/blob/master/screenshots/WhatsApp%20Image%202018-06-07%20at%207.23.44%20AM.jpeg)
-(https://github.com/jajangratis/jajangratis/reduxFB/blob/master/screenshots/WhatsApp%20Image%202018-06-07%20at%207.23.45%20AM.jpeg)
+https://github.com/jajangratis/reduxFB/blob/master/screenshots/WhatsApp%20Image%202018-06-07%20at%207.23.45%20AM.jpeg
 
 
 
