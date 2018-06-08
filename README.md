@@ -55,8 +55,11 @@ $ npm start
 ![Screenshots1](https://i.imgur.com/iH6GfXF.gif)
 ![screenshots2](https://i.imgur.com/C4NNNk1.gif)
 
-## Preview Video
-[![Facebook Clone](https://www.youtube.com/yt/about/media/images/brand-resources/icons/YouTube-icon-our_icon.png)](https://youtu.be/ASSK774NV0o)
+
+| App Preview              | Code Priview              |
+| ------------- | ------------- |
+| [![Facebook Clone](https://www.youtube.com/yt/about/media/images/brand-resources/icons/YouTube-icon-our_icon.png)](https://youtu.be/ASSK774NV0o)  | [![Facebook Clone Code](https://www.youtube.com/yt/about/media/images/brand-resources/icons/YouTube-icon-our_icon.png)](https://youtu.be/A6QFqkbhImg)  | 
+
 
 ## Powered by
 
