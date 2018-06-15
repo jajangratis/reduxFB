@@ -1,22 +1,9 @@
-<<<<<<< HEAD
-# React Native Facebook Clone
-
-project ini berisi tentang clone facebook yang dibuat dengan react native dan mengkombinasikannya dengan redux serta menghubungkannya dengan database django 
-
-## Feature and Technology this project used
-React Native <br>
-Redux  <br>
-Native Base <br>
-Redux Form <br>
-Django
-=======
 # Facebook Clone
 
 Facebook Clone is a clone app of https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en. It use React Native as the frontend and Django as the Backend and for data storage and i used redux . I am working this app at https://dumbways.id and https://arkademy.com Bootcamp class. Feels free to contribute to make this app better.
 
 
 ## Feature
->>>>>>> cd25c622d4cecc195bee5f3370d93648fa683641
 
 1. Post Status
 2. Status List
@@ -26,13 +13,6 @@ Facebook Clone is a clone app of https://play.google.com/store/apps/details?id=c
 6. Like Button
 7. See Comment
 
-<<<<<<< HEAD
-install applikasi dengan menjalankan perintah berikut
-```
-$ git clone https://github.com/jajangratis/reduxFB.git YourAppName
-$ cd YourAppName
-$ npm install
-=======
 ## Technology
 
 1. React Native as Frontend
@@ -47,7 +27,6 @@ $ npm install
 Open terminal, and clone this project
 ```
 $ git clone https://github.com/jajangratis/reduxFB Yourprojectname
->>>>>>> cd25c622d4cecc195bee5f3370d93648fa683641
 ```
 API:
 
@@ -67,18 +46,6 @@ $ npm install
 $ npm start
 ```
 
-<<<<<<< HEAD
-untuk menjalankan DB 
-
-```
-python3 manage.py runserver
-```
-
-## Screenshoots and stuff
-
-![alt text](https://github.com/jajangratis/fbDBdjango/tree/master/screenshots/Screenshot_20180607-082438.png)
-
-=======
 
 |               |               |              |
 | ------------- | ------------- |------------- |
@@ -103,4 +70,3 @@ python3 manage.py runserver
 ![https://arkademy.com](http://www.arkademy.com/asset/images/ico_logo.png)
 
 Author: Trian Afiansyah
->>>>>>> cd25c622d4cecc195bee5f3370d93648fa683641
