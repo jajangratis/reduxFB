@@ -24,6 +24,7 @@ Facebook Clone is a clone app of https://play.google.com/store/apps/details?id=c
 4. Edit Your Own Post
 5. Delete Your Own Post
 6. Like Button
+7. See Comment
 
 <<<<<<< HEAD
 install applikasi dengan menjalankan perintah berikut
@@ -50,28 +51,16 @@ $ git clone https://github.com/jajangratis/reduxFB Yourprojectname
 ```
 API:
 
-<<<<<<< HEAD
 Untuk installasi preset DB dengan django
 ```
-$ git clone https://github.com/jajangratis/fbDBdjango YourDb
-$ cd YourDb
-$ npm install
+$ git clone https://github.com/jajangratis/fbDBdjango
+$ cd (DBNAME)
+$ npm install -r requirements.txt
 ```
 
 ## Running Your App
 
 Untuk menjalankan aplikasi yang telah terinstall
-=======
-make sure you already on your virtual env
-```
-$ git clone https://github.com/jajangratis/fbDBdjango
-$ cd fbDBdjango
-$ pip3 install
-```
-Mobile Frontend (React Native):
-
-Make sure you already installed React Native and have emulator or real device running. If not visit this page https://facebook.github.io/react-native/docs/getting-started.html
->>>>>>> cd25c622d4cecc195bee5f3370d93648fa683641
 ```
 $ cd Yourprojectname
 $ npm install
