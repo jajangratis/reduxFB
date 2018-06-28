@@ -33,8 +33,8 @@ API:
 Untuk installasi preset DB dengan django
 ```
 $ git clone https://github.com/jajangratis/fbDBdjango
-$ cd (DBNAME)
-$ npm install -r requirements.txt
+$ cd projectname
+$ pip3 install -r requirements.txt
 ```
 
 ## Running Your App
