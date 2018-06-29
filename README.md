@@ -28,14 +28,32 @@ Open terminal, and clone this project
 ```
 $ git clone https://github.com/jajangratis/reduxFB Yourprojectname
 ```
+For Experimental version which its has many feature
+clone and the reason i didnt put in master cause i need to make a some preview and some video code to explain
+but in that experimental brach the things you can get :
+1.Comment Feacture
+2.Fabs
+3.Has 4 more new screen 
+4.get a better API
+
 API:
 
 Untuk installasi preset DB dengan django
 ```
 $ git clone https://github.com/jajangratis/fbDBdjango
 $ cd (DBNAME)
-$ npm install -r requirements.txt
+$ pip3 install -r requirements.txt
+
+
 ```
+if you going to use experimental use this server
+
+```
+$ git clone https://github.com/jajangratis/dbFBEX.git
+$ cd projectname
+$ pip3 install -r requirements.txt
+```
+
 
 ## Running Your App
 
